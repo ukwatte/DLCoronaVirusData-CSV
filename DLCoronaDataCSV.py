@@ -11,7 +11,7 @@ import argparse
 logger = logging.getLogger(__name__)
 log_format = "%(asctime)s %(levelname)s -- %(message)s"
 ##Set the Log file path below - /tmp/log.log
-logfilename = ''
+logfilename = '/tmp/DLCoronaDataCSV.log'
 logging.basicConfig(filename=logfilename,level=logging.DEBUG,format=log_format)
 def timed(func):
     """This decorator prints the execution time for the decorated function."""

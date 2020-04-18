@@ -10,6 +10,9 @@ $ git clone https://github.com/ukwatte/DLCoronaVirusData-CSV.git
 
 # install the requirements
 $ pip3 install -r requirements.txt
+
+# Current log file is set to - '/tmp/DLCoronaDataCSV.log'
+# you can change this is in line 14 of the DLCoronaDataCSV.py
 ```
 
 ## Usage
